@@ -1,6 +1,14 @@
 # Font Awesome Icon Finder - 1.0
 A Google Chrome extension that allows you to search, preview and choose Font Awesome icons. You can copy the selected icon as a HTML code or Unicode
 
+
+##### Chrome web store
+
+<img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png" width="200">
+
+https://chrome.google.com/webstore/detail/font-awesome-icon-finder/kjejboahkcobalmgldloeinebmbomgog
+
+
 #### Screenshots
 
 ![Chrome search overview](https://raw.githubusercontent.com/CS76/fontawesome-icon-finder/master/screenshots/marquee.png "Chrome search overview")
