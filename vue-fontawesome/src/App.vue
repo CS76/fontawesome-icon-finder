@@ -122,7 +122,7 @@
                         </code></pre>
                       </li>
                     </ol>
-                    <a href="http://fontawesome.io/assets/font-awesome-4.7.0.zip"><i class="fa fa-download"></i>  Download Now</a>
+                    <p><a href="http://fontawesome.io/assets/font-awesome-4.7.0.zip"><i class="fa fa-download"></i>  Download Now</a></p>
                   </div>
                 </div>
                 <!-- <footer class="card-footer">
@@ -131,6 +131,16 @@
                   <a href="#" class="card-footer-item">Delete</a>
                 </footer> -->
               </div>
+              <div>
+                    <span>
+                      <a target="_blank" class="has-text-black-bis" href="https://opensource.org/">
+                        <img src="https://opensource.org/files/osi_keyhole_300X300_90ppi_0.png" style="height: 16px;"> MIT license</a>   |  <a target="_blank" class="has-text-black-bis" href="https://github.com/CS76/fontawesome-icon-finder"> <i class="fa fa-github"></i> GitHub</a>
+                      
+                    </span>
+                    <span class="is-pulled-right">
+                      Made with <i class="fa fa-heart has-text-danger"></i> by <a href="https://twitter.com/mailcs76">CS76</a>
+                    </span>
+                  </div>
             </div>
             <div v-if="isVisible" class="overlay vc">
               <p><i class="fa fa-lg fa-clipboard"></i> Copied to clipboard!</p>
@@ -157,7 +167,7 @@ export default {
     }
   },
   mounted: function () {
-    this.client = algoliasearch("*********", "*****************");
+    this.client = algoliasearch("I029A7EBEI", "5a6360374e1f56ccb139b9b997bde44e");
     this.index = this.client.initIndex('font_awesome');
   },
   methods: {
@@ -210,4 +220,73 @@ export default {
 </script>
 
 <style>
+
+.h5em{
+  height: 5em;
+}
+
+.h100{
+  height: 100%;
+}
+
+.vc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.tag{
+  margin-left: 10px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+i:hover{
+  color: #5BCEBF;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+  -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+}
+
+pre code {
+    -webkit-overflow-scrolling: touch;
+    background: none;
+    color: inherit;
+    display: block;
+    font-size: 1em;
+    overflow-x: auto;
+    padding: .45rem .25rem .15rem .25rem;
+}
+
+.content {
+    margin-bottom: 0.8rem;
+}
+
+.content pre {
+  padding: 0.25em;
+  line-height: 0.5em;
+  margin-top: 0.5em;
+}
+
+code, pre{
+  font-size: 1.2em;
+}
+
 </style>
