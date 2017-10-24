@@ -9,6 +9,9 @@ A Google Chrome extension that allows you to search, preview and choose Font Awe
 https://chrome.google.com/webstore/detail/font-awesome-icon-finder/kjejboahkcobalmgldloeinebmbomgog
 
 
+Want support for Material, OpenIconic and Foundation-Icons in one single interface ?
+https://github.com/CS76/icon-search
+
 #### Screenshots
 
 ![Chrome search overview](https://raw.githubusercontent.com/CS76/fontawesome-icon-finder/master/screenshots/marquee.png "Chrome search overview")
