@@ -10,6 +10,7 @@ https://chrome.google.com/webstore/detail/font-awesome-icon-finder/kjejboahkcoba
 
 
 Want support for Material, OpenIconic and Foundation-Icons in one single interface ?
+
 https://github.com/CS76/icon-search
 
 #### Screenshots
