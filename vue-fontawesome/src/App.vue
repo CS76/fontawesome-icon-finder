@@ -8,7 +8,7 @@
               <label class="label" for="search">Font Awesome Icon Finder
               </label>
               <p class="control has-icons-left has-icons-right">
-                <input name="search" class="input" type="text" v-model="query" v-on:keyup="search">
+                <input name="search" class="input" type="text" v-model="query" v-on:keyup="search" autofocus>
                 <span class="icon is-small is-left">
                   <i class="fa fa-search"></i>
                 </span>
